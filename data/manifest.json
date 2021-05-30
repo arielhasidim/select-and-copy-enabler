@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "MEDnPaste",
+    "short_name": "MEDnPaste",
+    "description": "Disable text selection block in medexams.",
+    "version": "1",
+    "browser_action": {
+        "default_icon": "iconon.png",
+        "default_title": "Let's read some Hebrew!"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.medexams.co.il/*"],
+        "js": ["custom.js"]
+      }
+    ],
+  "permissions": [
+    "identity",
+    "tabs",
+    "activeTab",
+    "*://*/*"
+  ]
+}
