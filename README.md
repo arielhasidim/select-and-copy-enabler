@@ -10,3 +10,5 @@ Disable "text selection" block in medexams.
 - Navigate to the "data" folder inside the files folder you unpacked, and select it
 - Run medexams and select text as you like
 - GL&HF
+
+Based on [this](https://superuser.com/a/1282849/507984) answer.
