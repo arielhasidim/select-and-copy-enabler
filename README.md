@@ -1,4 +1,4 @@
-# MEDnPaste
+# Instructions
 chrome plugin
 Disable "text selection" block in medexams.
 
