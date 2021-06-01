@@ -1,4 +1,4 @@
-console.log("running custom script from extention")
+console.log("running custom script from extention");
 (function() {
     'use strict';
   
