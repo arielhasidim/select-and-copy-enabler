@@ -1,16 +1,16 @@
 {
     "manifest_version": 2,
-    "name": "MEDnPaste",
-    "short_name": "MEDnPaste",
-    "description": "Disable text selection block in medexams.",
+    "name": "SelectionEnabler",
+    "short_name": "SelectionEnabler",
+    "description": "Disable text selection block.",
     "version": "1",
     "browser_action": {
         "default_icon": "iconon.png",
-        "default_title": "Let's read some Hebrew!"
+        "default_title": "Let's select some text!"
     },
     "content_scripts": [
       {
-        "matches": ["*://*.medexams.co.il/*"],
+        "matches": ["<all_urls>"],
         "js": ["custom.js"]
       }
     ],
