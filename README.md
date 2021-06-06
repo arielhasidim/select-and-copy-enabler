@@ -1,4 +1,4 @@
-**MEDnPaste -** Disable "text selection" block in medexams (chrome plugin).
+**SelectionEnabler -** Disable "text selection" block in every site (chrome plugin).
 # Install instructions
 - Download files (green **Code** button on the upper right ↗, then **Download ZIP**)
 - Unpack files
