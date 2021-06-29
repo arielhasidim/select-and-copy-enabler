@@ -1,6 +1,6 @@
-**SelectionEnabler -** Disable "text selection" block in every site (chrome plugin).
+**SelectionEnabler -** Disable "text selection" block on every site (chrome plugin).
 # Install instructions
-- Download files (green **Code** button on the upper right ↗, then **Download ZIP**)
+- Download files (green "**↓Code**" button on the upper right ↗, then "**Download ZIP**")
 - Unpack files
 - Go to URL: "chrome://extensions" on your chrome browser
 - Tick the "developer mode" in the upper right corner
