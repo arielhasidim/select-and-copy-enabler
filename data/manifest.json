@@ -1,12 +1,12 @@
 {
     "manifest_version": 2,
-    "name": "SelectionEnabler",
+    "name": "Select And Copy Enabler",
     "short_name": "SelectionEnabler",
-    "description": "Disable text selection block.",
-    "version": "1",
+    "description": "Disable text selection block and recreate copy-to-clipboard functionality.",
+    "version": "2",
     "browser_action": {
         "default_icon": "iconon.png",
-        "default_title": "Let's select some text!"
+        "default_title": "Let's select and copy some text!"
     },
     "content_scripts": [
       {

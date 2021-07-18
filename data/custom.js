@@ -2,13 +2,13 @@ console.log("running custom script from extention");
 (function() {
     'use strict';
   
-    let style = document.createElement('style');
+    const style = document.createElement('style');
     style.innerHTML = '*{ user-select: auto !important; }';
   
     document.body.appendChild(style);
   })();
 
-  var ctrlDown = false,
+  let ctrlDown = false,
   ctrlKey = 17,
   cmdKey = 91,
   cKey = 67;
@@ -17,18 +17,18 @@ console.log("running custom script from extention");
       if (e.keyCode == ctrlKey || e.keyCode == cmdKey) ctrlDown = true;
       if (ctrlDown && (e.code == 'KeyC')) {
 
-        var selectedText = window.getSelection().toString();
+        let selectedText = window.getSelection().toString();
         
         navigator.clipboard.writeText(selectedText).then(
           function () {
-            console.log('success')
+            console.log('copy success')
           },
           function () {
-            console.log('failure')
+            console.log('copy failure. maybe update chrome?')
           }
       );
       }
   }
   document.onkeyup = function(e) {
-      if (e.code == ctrlKey || e.keyCode == cmdKey) ctrlDown = false;
+      if (e.keyCode == ctrlKey || e.keyCode == cmdKey) ctrlDown = false;
   };
