@@ -8,7 +8,7 @@
 - Navigate to the "data" folder inside the files folder you unpacked, and select it
 - Open websites, select and copy text as you like
 - GL&HF
-- 
+
 Requires [Chrome 66 and above](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/writeText).
 
 Partly based on [this](https://superuser.com/a/1282849/507984) answer.
