@@ -1,5 +1,7 @@
+MADE FOR LEARNING PURPOSE ONLY, DO NOT USE FOR STEALING COPYRIGHTED CONTENT!
+
 **Select And Copy Enabler -** Chrome plugin that disables "text selection" block, and recreate "copy-to-clipboard" functionality for Ctrl+C (for every website, windows and macOS).
-# Install instructions
+# Running:
 - Download files (green "**↓Code**" button on the upper right ↗, then "**Download ZIP**")
 - Unpack files
 - Go to URL: "chrome://extensions" on your chrome browser
