@@ -18,7 +18,7 @@ let selectedText
 // Overwrite what is being copied to the clipboard.
 document.addEventListener('copy', function(e) {
   // e.clipboardData is initially empty, but we can set it to the
-  // data that we want copied onto the clipboard.
+  // data that we want copied onto the clipboard. 
   e.clipboardData.setData('text/plain', selectedText);
 
   // This is necessary to prevent the current document selection from
@@ -27,11 +27,11 @@ document.addEventListener('copy', function(e) {
 });
 
 document.onkeydown = function (e) {
-  selectedText = window.getSelection().toString();
   if (e.keyCode == ctrlKey || e.keyCode == cmdKey) ctrlDown = true;
   if (ctrlDown && (e.code == 'KeyC')) {
+    selectedText = window.getSelection().toString();
 
-    navigator.clipboard.writeText(selectedText).then(
+    navigator.clipboard.writeText("a").then(
       function () {
         console.log('copy success: ' + selectedText)
       },
