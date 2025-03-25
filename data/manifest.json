@@ -1,23 +1,25 @@
 {
-    "manifest_version": 2,
-    "name": "Select And Copy Enabler",
-    "short_name": "SelectionEnabler",
-    "description": "Disable text selection block and recreate copy-to-clipboard functionality.",
-    "version": "2",
-    "browser_action": {
-        "default_icon": "iconon.png",
-        "default_title": "Let's select and copy some text!"
-    },
-    "content_scripts": [
-      {
-        "matches": ["<all_urls>"],
-        "js": ["custom.js"]
-      }
-    ],
+  "manifest_version": 3,
+  "name": "Select And Copy Enabler",
+  "short_name": "SelectionEnabler",
+  "description": "Disable text selection block and recreate copy-to-clipboard functionality.",
+  "version": "3",
+  "action": {
+    "default_icon": "iconon.png",
+    "default_title": "Let's select and copy some text!"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["custom.js"]
+    }
+  ],
   "permissions": [
     "identity",
-    "tabs",
     "activeTab",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
     "*://*/*"
   ]
 }
